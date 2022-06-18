@@ -721,20 +721,20 @@ window.addEventListener('DOMContentLoaded', function(){
 
     stopShape();
 
-    function mixBlendMode1() {
-        canvasGroup.style['mix-blend-mode'] = 'difference';
-        canvasGroup.style['-webkit-mix-blend-mode'] = 'difference';
-        canvas1.style['mix-blend-mode'] = 'difference';
-        canvas1.style['-webkit-mix-blend-mode'] = 'difference';
-        canvas2.style['mix-blend-mode'] = 'difference';
-        canvas2.style['-webkit-mix-blend-mode'] = 'difference';
-        canvas3.style['mix-blend-mode'] = 'difference';
-        canvas3.style['-webkit-mix-blend-mode'] = 'difference';
-        canvas4.style['mix-blend-mode'] = 'difference';
-        canvas4.style['-webkit-mix-blend-mode'] = 'difference';
-        canvas5.style['mix-blend-mode'] = 'difference';
-        canvas5.style['-webkit-mix-blend-mode'] = 'difference';
-    }
+    // function mixBlendMode1() {
+    //     canvasGroup.style['mix-blend-mode'] = 'difference';
+    //     canvasGroup.style['-webkit-mix-blend-mode'] = 'difference';
+    //     canvas1.style['mix-blend-mode'] = 'difference';
+    //     canvas1.style['-webkit-mix-blend-mode'] = 'difference';
+    //     canvas2.style['mix-blend-mode'] = 'difference';
+    //     canvas2.style['-webkit-mix-blend-mode'] = 'difference';
+    //     canvas3.style['mix-blend-mode'] = 'difference';
+    //     canvas3.style['-webkit-mix-blend-mode'] = 'difference';
+    //     canvas4.style['mix-blend-mode'] = 'difference';
+    //     canvas4.style['-webkit-mix-blend-mode'] = 'difference';
+    //     canvas5.style['mix-blend-mode'] = 'difference';
+    //     canvas5.style['-webkit-mix-blend-mode'] = 'difference';
+    // }
 
     function mouseControl1() {
         moveShape();
@@ -758,7 +758,7 @@ window.addEventListener('DOMContentLoaded', function(){
 
 	if( is_mobile ) {
 
-        mixBlendMode1();
+        // mixBlendMode1();
 
         document.addEventListener("touchstart", (e) => {
 			dragX = e.touches[0].clientX;
@@ -823,9 +823,9 @@ window.addEventListener('DOMContentLoaded', function(){
 			browserName = "other"; // 기타
 	}
 
-    if(browserName == "Safari") {
-        mixBlendMode1();
-    }
+    // if(browserName == "Safari") {
+    //     mixBlendMode1();
+    // }
 
     //viewport transition//////////////////////////////////////////////////
     window.onresize = function(event){
