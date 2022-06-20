@@ -41,7 +41,7 @@ header{
 
 a{
 	text-decoration: none;
-    color: ghostwhite;
+    color: rgba(255, 254, 238);
 }
 
 #flond{
@@ -55,7 +55,7 @@ a{
     position: absolute;
     top: 75px;
     left: 25px;
-    color: ghostwhite;
+    color: rgba(255, 254, 238);
     font-size: 1.1rem;
     font-family: 'Kaisei Decol',serif;
     font-weight: medium;
