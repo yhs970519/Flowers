@@ -431,6 +431,19 @@ a{
 }
 
 @media (max-width: 550px){
+    #flond{
+        font-size: 1.5rem;
+        letter-spacing: 0.1125rem;
+    }
+    
+    #subtitle{
+        position: absolute;
+        top: 65px;
+        left: 25px;
+        font-size: 0.825rem;
+        letter-spacing: 0.25875rem;
+    }
+    
     #tulip1{
         top: 40%;
         left: 5%;
