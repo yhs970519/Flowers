@@ -70,8 +70,8 @@ a{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
-    height: 900px;
+    width: 300px;
+    height: 800px;
 }
 
 .hanamove{
@@ -187,4 +187,66 @@ a{
 
 #eiyouzai3{
     transform: rotate(75deg);
+}
+@media (max-width: 550px){
+    #flond{
+        font-size: 1.5rem;
+        letter-spacing: 0.1125rem;
+    }
+    
+    #info{
+        top: 37px;
+        font-size: 1.5rem;
+    }
+
+    .hana{
+        top: 70%;
+        left: 52.5%;
+    }
+
+    #canvasGroup1{
+        width: 112.5px;
+        height: 112.5px;
+    }
+    
+    #canvasGroup2{
+        width: 112.5px;
+        height: 450px;
+        top: -37.5px;
+    }
+
+    #canvas1, #canvas2, #canvas3, #canvas4, 
+    #canvas5{
+        width: 112.5px;
+        height: 112.5px;
+    }
+
+    #canvas6, #canvas7, #canvas8, #canvas9{
+        width: 112.5px;
+        height: 450px;
+    }
+
+    #canvas7, #canvas8{
+        width: 150px;
+    }
+
+    #canvas7{
+        left: -67.5px;
+    }
+
+    #canvas8{
+        left: 45px;
+    }
+
+    #zyouro{
+        bottom: 25%;
+        right: -175px;
+        width: 400px;
+    }
+    
+    #eiyouzai1, #eiyouzai2, #eiyouzai3{
+        bottom: 27.5%;
+        left: -20px;
+        width: 40px;
+    }
 }
